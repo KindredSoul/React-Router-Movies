@@ -44,10 +44,6 @@ export default function App() {
 				}
 			/>
 
-			{/* <div>
-				<Link to="/">Movies</Link>
-				<Link to="/movies">Movie Selection</Link>
-			</div> */}
 			<Switch>
 				<Route exact path="/">
 					<MovieList movies={movieList} />
